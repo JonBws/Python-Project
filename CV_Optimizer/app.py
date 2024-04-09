@@ -43,7 +43,7 @@ input_prompt2 =  """anda adalah ATS (Applicant Tracking System) scanner dengan p
 
 input_prompt3 = """anda adalah seorang HR dengan pengalaman dibidang mencari keyword pada job description yang diberikan, tugas anda mencari keyword yang ada pada job descrition yang diberikan"""
 
-input_prompt4 = """anda adalah orang yang memiliki banyak pengalaman dalam pembuatan cover letter untuk menacari kerja, tugas anda adalah untuk membuat cover letter seorang kandidat berdasarkan informasi cv dan job description yang diberikan"""
+input_prompt4 = """anda adalah orang yang memiliki banyak pengalaman dalam pembuatan cover letter untuk menacari kerja, tugas anda adalah untuk membuat cover letter seorang kandidat berdasarkan informasi cv dan job description yang diberikan, buat cover letter ini dalam bahasa indonesia"""
 
 if submit1:
   response = get_gemini_response(cv_txt, jobdesc_txt, input_prompt1)
